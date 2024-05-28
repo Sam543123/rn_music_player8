@@ -19,12 +19,12 @@ const ControlCenter = () => {
         await TrackPlayer.skipToPrevious()
     }
 
-    const togglePlayback = async (playback: State) => {
-        const  currentTrack = await TrackPlayer.getCurrentTrack()
+    const togglePlayback = async (playbackState: State | undefined) => {
+        const  currentTrack = await TrackPlayer.getActiveTrackIndex()
 
-        console.log(playback.state === State.Ready);
+        console.log(playbackState === State.Ready);
         if (currentTrack !== null) {
-            if (playback.state === State.Paused || playback.state === State.Ready) {
+            if (playbackState === State.Paused || playbackState === State.Ready) {
                 await TrackPlayer.play()
             } else {
                 await TrackPlayer.pause()
@@ -37,7 +37,7 @@ const ControlCenter = () => {
         <Pressable onPress={skipToPrevious}>
             <Icon style={styles.icon} name="skip-previous" size={40} />
         </Pressable>
-        <Pressable onPress={() => togglePlayback(playBackState)}>
+        <Pressable onPress={() => togglePlayback(playBackState.state)}>
             <Icon 
             style={styles.icon} 
             name={playBackState.state === State.Playing ? "pause" : "play-arrow"} 
