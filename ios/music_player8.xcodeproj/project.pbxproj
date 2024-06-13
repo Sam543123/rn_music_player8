@@ -12,8 +12,29 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		223DAA412C1B07F800A637ED /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA2D2C1B07F700A637ED /* AntDesign.ttf */; };
+		223DAA422C1B07F800A637ED /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA2E2C1B07F700A637ED /* Entypo.ttf */; };
+		223DAA432C1B07F800A637ED /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA2F2C1B07F700A637ED /* EvilIcons.ttf */; };
+		223DAA442C1B07F800A637ED /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA302C1B07F700A637ED /* Feather.ttf */; };
+		223DAA452C1B07F800A637ED /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA312C1B07F700A637ED /* FontAwesome.ttf */; };
+		223DAA462C1B07F800A637ED /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA322C1B07F700A637ED /* FontAwesome5_Brands.ttf */; };
+		223DAA472C1B07F800A637ED /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA332C1B07F700A637ED /* FontAwesome5_Regular.ttf */; };
+		223DAA482C1B07F800A637ED /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA342C1B07F700A637ED /* FontAwesome5_Solid.ttf */; };
+		223DAA492C1B07F800A637ED /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA352C1B07F700A637ED /* FontAwesome6_Brands.ttf */; };
+		223DAA4A2C1B07F800A637ED /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA362C1B07F700A637ED /* FontAwesome6_Regular.ttf */; };
+		223DAA4B2C1B07F800A637ED /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA372C1B07F700A637ED /* FontAwesome6_Solid.ttf */; };
+		223DAA4C2C1B07F800A637ED /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA382C1B07F700A637ED /* Fontisto.ttf */; };
+		223DAA4D2C1B07F800A637ED /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA392C1B07F700A637ED /* Foundation.ttf */; };
+		223DAA4E2C1B07F800A637ED /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3A2C1B07F700A637ED /* Ionicons.ttf */; };
+		223DAA4F2C1B07F800A637ED /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3B2C1B07F700A637ED /* MaterialCommunityIcons.ttf */; };
+		223DAA502C1B07F800A637ED /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3C2C1B07F700A637ED /* MaterialIcons.ttf */; };
+		223DAA512C1B07F800A637ED /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3D2C1B07F700A637ED /* Octicons.ttf */; };
+		223DAA522C1B07F800A637ED /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3E2C1B07F700A637ED /* SimpleLineIcons.ttf */; };
+		223DAA532C1B07F800A637ED /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223DAA3F2C1B07F700A637ED /* Zocial.ttf */; };
+		223DAA562C1B090E00A637ED /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DAA552C1B090E00A637ED /* dummy.swift */; };
 		7699B88040F8A987B510C191 /* libPods-music_player8-music_player8Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-music_player8-music_player8Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C5A317D7325700FFA94266CE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 06366EA789C08B80F4B0C973 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +51,36 @@
 		00E356EE1AD99517003FC87E /* music_player8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = music_player8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* music_player8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = music_player8Tests.m; sourceTree = "<group>"; };
+		06366EA789C08B80F4B0C973 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = music_player8/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* music_player8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = music_player8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = music_player8/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = music_player8/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = music_player8/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = music_player8/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = music_player8/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = music_player8/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = music_player8/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-music_player8-music_player8Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-music_player8-music_player8Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223DAA2D2C1B07F700A637ED /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		223DAA2E2C1B07F700A637ED /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		223DAA2F2C1B07F700A637ED /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		223DAA302C1B07F700A637ED /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		223DAA312C1B07F700A637ED /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		223DAA322C1B07F700A637ED /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		223DAA332C1B07F700A637ED /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		223DAA342C1B07F700A637ED /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		223DAA352C1B07F700A637ED /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		223DAA362C1B07F700A637ED /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		223DAA372C1B07F700A637ED /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		223DAA382C1B07F700A637ED /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		223DAA392C1B07F700A637ED /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		223DAA3A2C1B07F700A637ED /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		223DAA3B2C1B07F700A637ED /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		223DAA3C2C1B07F700A637ED /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		223DAA3D2C1B07F700A637ED /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		223DAA3E2C1B07F700A637ED /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		223DAA3F2C1B07F700A637ED /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		223DAA542C1B090E00A637ED /* music_player8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "music_player8-Bridging-Header.h"; sourceTree = "<group>"; };
+		223DAA552C1B090E00A637ED /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-music_player8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-music_player8.debug.xcconfig"; path = "Target Support Files/Pods-music_player8/Pods-music_player8.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-music_player8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-music_player8.release.xcconfig"; path = "Target Support Files/Pods-music_player8/Pods-music_player8.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-music_player8-music_player8Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-music_player8-music_player8Tests.debug.xcconfig"; path = "Target Support Files/Pods-music_player8-music_player8Tests/Pods-music_player8-music_player8Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,8 +137,36 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				06366EA789C08B80F4B0C973 /* PrivacyInfo.xcprivacy */,
 			);
 			name = music_player8;
+			sourceTree = "<group>";
+		};
+		223DAA402C1B07F700A637ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				223DAA2D2C1B07F700A637ED /* AntDesign.ttf */,
+				223DAA2E2C1B07F700A637ED /* Entypo.ttf */,
+				223DAA2F2C1B07F700A637ED /* EvilIcons.ttf */,
+				223DAA302C1B07F700A637ED /* Feather.ttf */,
+				223DAA312C1B07F700A637ED /* FontAwesome.ttf */,
+				223DAA322C1B07F700A637ED /* FontAwesome5_Brands.ttf */,
+				223DAA332C1B07F700A637ED /* FontAwesome5_Regular.ttf */,
+				223DAA342C1B07F700A637ED /* FontAwesome5_Solid.ttf */,
+				223DAA352C1B07F700A637ED /* FontAwesome6_Brands.ttf */,
+				223DAA362C1B07F700A637ED /* FontAwesome6_Regular.ttf */,
+				223DAA372C1B07F700A637ED /* FontAwesome6_Solid.ttf */,
+				223DAA382C1B07F700A637ED /* Fontisto.ttf */,
+				223DAA392C1B07F700A637ED /* Foundation.ttf */,
+				223DAA3A2C1B07F700A637ED /* Ionicons.ttf */,
+				223DAA3B2C1B07F700A637ED /* MaterialCommunityIcons.ttf */,
+				223DAA3C2C1B07F700A637ED /* MaterialIcons.ttf */,
+				223DAA3D2C1B07F700A637ED /* Octicons.ttf */,
+				223DAA3E2C1B07F700A637ED /* SimpleLineIcons.ttf */,
+				223DAA3F2C1B07F700A637ED /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -118,12 +189,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				223DAA552C1B090E00A637ED /* dummy.swift */,
+				223DAA402C1B07F700A637ED /* Fonts */,
 				13B07FAE1A68108700A75B9A /* music_player8 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* music_player8Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				223DAA542C1B090E00A637ED /* music_player8-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -208,7 +282,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -243,8 +317,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223DAA412C1B07F800A637ED /* AntDesign.ttf in Resources */,
+				223DAA462C1B07F800A637ED /* FontAwesome5_Brands.ttf in Resources */,
+				223DAA452C1B07F800A637ED /* FontAwesome.ttf in Resources */,
+				223DAA422C1B07F800A637ED /* Entypo.ttf in Resources */,
+				223DAA442C1B07F800A637ED /* Feather.ttf in Resources */,
+				223DAA4B2C1B07F800A637ED /* FontAwesome6_Solid.ttf in Resources */,
+				223DAA4D2C1B07F800A637ED /* Foundation.ttf in Resources */,
+				223DAA4C2C1B07F800A637ED /* Fontisto.ttf in Resources */,
+				223DAA482C1B07F800A637ED /* FontAwesome5_Solid.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				223DAA4E2C1B07F800A637ED /* Ionicons.ttf in Resources */,
+				223DAA472C1B07F800A637ED /* FontAwesome5_Regular.ttf in Resources */,
+				223DAA432C1B07F800A637ED /* EvilIcons.ttf in Resources */,
+				223DAA532C1B07F800A637ED /* Zocial.ttf in Resources */,
+				223DAA4F2C1B07F800A637ED /* MaterialCommunityIcons.ttf in Resources */,
+				223DAA502C1B07F800A637ED /* MaterialIcons.ttf in Resources */,
+				223DAA492C1B07F800A637ED /* FontAwesome6_Brands.ttf in Resources */,
+				223DAA512C1B07F800A637ED /* Octicons.ttf in Resources */,
+				223DAA522C1B07F800A637ED /* SimpleLineIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				223DAA4A2C1B07F800A637ED /* FontAwesome6_Regular.ttf in Resources */,
+				C5A317D7325700FFA94266CE /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				223DAA562C1B090E00A637ED /* dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-music_player8-music_player8Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -441,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-music_player8-music_player8Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = music_player8Tests/Info.plist;
@@ -482,6 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = music_player8;
+				SWIFT_OBJC_BRIDGING_HEADER = "music_player8-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,6 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = music_player8;
+				SWIFT_OBJC_BRIDGING_HEADER = "music_player8-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -517,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +644,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +664,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +685,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +727,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +740,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +760,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
